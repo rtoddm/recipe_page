@@ -1,0 +1,657 @@
+/********** Mobile First Global Styles **********/
+
+body {
+  display: flex;
+  align-items: center;
+  width: 375px;
+  background: #f3e5d7;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 375px;
+  height: 2100px;
+  background: #ffffff;
+  /* border-radius: 24px; */
+  margin: 150px 352px;
+}
+
+img {
+  width: 375px;
+  height: 171px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 0px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  /* outline: red 2px dotted; */
+  width: 311px;
+  height: 72px;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  color: #312e2c;
+  margin-top: 40px;
+}
+
+.description {
+  /* outline: red 2px dotted; */
+  width: 311px;
+  height: 120px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  color: #5f564d;
+}
+
+.preparation {
+  /* outline: red dotted 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  width: 311px;
+  height: 196px;
+  background: #fff7fb;
+  border-radius: 12px;
+}
+
+.preparation h3 {
+  /* outline: 2px yellow solid; */
+  width: 263px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #7a284e;
+  margin-bottom: 5px;
+}
+
+.preparation ul {
+  /* outline: green 2px dotted; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+  width: 300px;
+  height: 150px;
+}
+
+.preparation ul li {
+  width: 200px;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin: 10px 0;
+
+  /* Body (Regular) */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #5f564d;
+}
+
+#prep-item {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.preparation li span {
+  /* outline: 2px green dotted; */
+  width: 40px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5f564d;
+}
+
+.ingredients h2 {
+  width: 263px;
+  height: 28px;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  color: #854632;
+}
+
+.ingredients ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 311px;
+  height: 176px;
+}
+
+.ingredients ul li {
+  padding: 0px 0px 0px 20px;
+  margin-left: 25px;
+  gap: 16px;
+  width: 250px;
+  height: 24px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+.preparation-list li::marker,
+.ingredients-list li::marker {
+  color: #854632;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.line {
+  width: 300px;
+  height: 0px;
+  border: 1px solid #e3ddd7;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 32px;
+}
+
+.instructions-list li::marker {
+  width: 16px;
+  height: 24px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #854632;
+}
+
+.instructions {
+  /* outline: green 3px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 311px;
+  height: 750px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.instructions h2 {
+  /* outline: 2px dotted aquamarine; */
+  width: 263px;
+  height: 28px;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+  color: #854632;
+  margin: 0;
+  padding-right: 50px;
+}
+
+.instructions ol {
+  /* outline: yellow 3px solid; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 8px;
+  margin-top: 0px;
+  width: 300px;
+  height: 800px;
+}
+
+.instructions ol li {
+  width: 270px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  color: #5f564d;
+}
+
+.instructions ol li span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-right: 15px;
+  margin-left: 35px;
+  padding: 0px;
+  gap: 24px;
+  width: 300px;
+  height: 320px;
+}
+
+.nutrition h2 {
+  width: 250px;
+  height: 28px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  color: #854632;
+}
+
+.nutrition p {
+  width: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+table {
+  display: flex;
+  justify-content: flex-start;
+  border-collapse: collapse;
+  padding: 0px;
+  gap: 12px;
+  width: 300px;
+  height: 168px;
+  margin: 0px 20px 0px 0px;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e3ddd7;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width: 300px;
+}
+
+tr td {
+  width: 288px;
+}
+
+tr:first-child {
+  border-top: none;
+  border-left: none;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+tr span {
+  width: 288px;
+  height: 24px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #854632;
+}
+
+.table-label {
+  width: 288px;
+  height: 24px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+/**************************************!!!!! DESKTOP STYLES !!!!!!!**********************************/
+
+@media all and (min-width: 1200px) {
+  body {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 736px;
+    height: 1750px;
+    border-radius: 12px;
+    margin-left: 600px;
+  }
+
+  img {
+    width: 656px;
+    height: 300px;
+    margin: 40px;
+    border-radius: 12px;
+  }
+
+  .recipe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    width: 656px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 100%;
+    margin: 0;
+  }
+
+  .description {
+    width: 656px;
+    height: 48px;
+    margin-top: 24px;
+  }
+
+  .preparation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 656px;
+  }
+
+  .preparation h3 {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #7a284e;
+  }
+
+  .preparation ul {
+    width: 500px;
+    margin-left: 12px;
+    padding: 10px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f564d;
+  }
+
+  .preparation ul li {
+    width: 400px;
+    height: 15px;
+  }
+
+  #prep-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .ingredients h2 {
+    width: 656px;
+    height: 28px;
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: #854632;
+    padding-left: 12px;
+  }
+
+  .line {
+    width: 656px;
+    height: 0px;
+    border: 1px solid #e3ddd7;
+    margin-top: 25px;
+    margin-left: 32px;
+  }
+
+  .ingredients {
+    margin-top: 10px;
+  }
+
+  .ingredients h2 {
+    width: 656px;
+    height: 28px;
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: #854632;
+  }
+
+  .ingredients ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 23px;
+    gap: 8px;
+    width: 656px;
+    height: 152px;
+  }
+
+  .ingredients ul li {
+    width: 616px;
+    height: 24px;
+    padding-left: 16px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f564d;
+  }
+
+  .instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 656px;
+    height: 350px;
+    padding: 0px;
+    gap: 34px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+  }
+
+  .instructions h2 {
+    width: 105px;
+    height: 28px;
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    color: #854632;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .instructions ol {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 8px;
+    margin-top: 0px;
+    width: 615px;
+    height: 290px;
+  }
+
+  .instructions ol li {
+    width: 600px;
+    height: 40px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    color: #5f564d;
+  }
+
+  #number-two {
+    height: 22px;
+  }
+
+  .instructions ol li span {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f564d;
+  }
+
+  .nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-left: 35px;
+    padding: 0px;
+    gap: 24px;
+    width: 656px;
+    height: 268px;
+  }
+
+  .nutrition h2 {
+    width: 656px;
+    height: 28px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: #854632;
+  }
+
+  .nutrition p {
+    width: 656px;
+    height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f564d;
+  }
+
+  table {
+    display: flex;
+    justify-content: flex-start;
+    border-collapse: collapse;
+    padding: 0px;
+    gap: 12px;
+    height: 168px;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #e3ddd7;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 656px;
+  }
+
+  tr td {
+    width: 310px;
+  }
+
+  tr:first-child {
+    border-top: none;
+    border-left: none;
+  }
+
+  tr:last-child {
+    border-bottom: none;
+  }
+
+  tr span {
+    width: 288px;
+    height: 24px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* Brandy Red */
+    color: #854632;
+  }
+
+  .table-label {
+    width: 288px;
+    height: 24px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f564d;
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+}
