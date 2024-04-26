@@ -20,11 +20,11 @@ This is a fairly simple project that I completed which allowed me to practice HT
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://rtoddm.github.io/recipe_page/)
 
 ## My process
 
-1. I began by initializing my project as a public repository on [GitHub](https://github.com/).
+1. I began by initializing my project as a public repository on [GitHub](https://github.com/rtoddm/recipe_page).
 2. Then I configured my repository to publish my code to a web address (GitHub pages).
 3. I looked through the designs in order to plan how I'd tackle the project. This step is important to help you think through potential CSS classes to create reusable styles.
 4. However, before worrying about any styles, I structured my HTML content.
@@ -40,7 +40,7 @@ This is a fairly simple project that I completed which allowed me to practice HT
 
 ### What I learned
 
-This project really helped me to better understand Mobile First development. I made the mistake of coding out the Desktop section first and then realize I should have started with the Mobile section first. That is a lesson I will not soon forget! This also drove home the importance of using sematic HTML tags and structuring your HTML accordingly.
+This project really helped me to better understand Mobile First development. I made the mistake of coding out the Desktop section first and then realize I should have started with the Mobile section first. That is a lesson I will not soon forget! This also drove home the importance of using sematic HTML tags and structuring your HTML and FlexBox accordingly.
 
 ### Continued development
 
