@@ -1,3 +1,15 @@
+## 📌 Archived Project Notice  
+
+This project was completed as part of a Frontend Mentor challenge. It uses **HTML and CSS** to practice building responsive layouts.  
+
+I’ve archived it to keep my portfolio focused on more advanced work, but I’m leaving the code and demo up for reference.  
+
+🔗 [View Live Demo](https://rtoddm.github.io/recipe_page/)  
+
+
+----
+
+
 ## Table of contents
 
 - [Overview](#overview)
